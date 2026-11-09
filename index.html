@@ -1,0 +1,7 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cengage Preview</title>
+<body><p><a id="game" href="game-mqb-e776b0f70421e311f76afd38f816187a.html?v=mqb-e776b0f70421e311f76afd38f816187a">Open Cengage Preview</a></p>
+<script>const requested = new URLSearchParams(location.search).get('v');
+const buildId = /^mqb-[a-f0-9]{32}$/.test(requested || '') ? requested : "mqb-e776b0f70421e311f76afd38f816187a";
+const url = new URL('game-' + buildId + '.html', location.href);
+url.search = location.search; url.searchParams.set('v', buildId); url.hash = location.hash;
+document.getElementById('game').href = url.href; location.replace(url.href);</script></body></html>
